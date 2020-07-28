@@ -1,0 +1,10 @@
+1 CREATE michael checking 1234567889 michael@gmail.com 12232 north siani chicago IL 606010
+1 DEPOSIT michael checking 200.00
+2 DEPOSIT michael checking 3000.00
+4 CREATE rose credit 987654321 rose@gmail.com 121 51st street chicago IL 606037
+10 DEPOSIT michael checking 1800.00
+11 WITHDRAW michael checking 1000.00
+10 DEPOSIT rose credit 100.00
+11 WITHDRAW rose credit 50.00
+12 BAL-INQUERY rose credit
+12 BAL-INQUERY michael checking
