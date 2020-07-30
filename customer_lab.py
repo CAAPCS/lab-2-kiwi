@@ -1,9 +1,9 @@
-class Customer:
+class customers:
     '''
-    Customer class encapsulates a customer in the bank. It keeps track of their accounts and the account info
+    Customer class encapsulates a customer in the bank. It contains the information associated with the customer.
     '''
-    def __init__(self, name, number, email, address):
+    def CREATE(self, name, mobile, email, address,):
         self.name = name
-        self.number = number
+        self.mobile = mobile
         self.email = email
         self.address = address
